@@ -78,6 +78,9 @@ def paddle_right():
 wn.listen()
 wn.onkeypress(paddle_left, "Left")
 wn.onkeypress(paddle_right, "Right")
+wn.onkeypress(paddle_left, "a")
+wn.onkeypress(paddle_left, "d")
+
 
 
 
